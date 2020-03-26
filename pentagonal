@@ -1,0 +1,17 @@
+package Asst_10progs;
+
+public class PentagonalNumbers
+{
+	public static void main(String[] args)
+	{
+   		int n, count = 1;
+		for(int i = 1; i <= 50; i++)
+		{
+			n= (i * (3 * i - 1))/2;
+			System.out.printf("%-5d",n);
+			if(count % 10 == 0)
+			System.out.println();
+			count++;
+		}
+	}
+}
