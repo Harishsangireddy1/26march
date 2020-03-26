@@ -1,14 +1,14 @@
 package Asst_10progs;
 
-public class PentagonalNumbers
+public class PentagonalNumbers  //declare class
 {
-	public static void main(String[] args)
+	public static void main(String[] args) //main function
 	{
-   		int n, count = 1;
-		for(int i = 1; i <= 50; i++)
+   		int n, count = 1;   //declaring variables
+		for(int i = 1; i <= 50; i++) //have to print uto 50 pentagonal numbers so iterating the loop
 		{
-			n= (i * (3 * i - 1))/2;
-			System.out.printf("%-5d",n);
+			n= (i * (3 * i - 1))/2;   
+			System.out.printf("%-5d",n);  //printing numbers with 5spaces gap
 			if(count % 10 == 0)
 			System.out.println();
 			count++;
